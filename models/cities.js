@@ -1,0 +1,24 @@
+const getDB = require("./database.js");
+
+const getAll = async () => {
+  try {
+    const db = await getDB(process.env);
+    return await db.cities.find({});
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+const insert = async (city_name) => {
+  try {
+    const db = await getDB(process.env);
+    return await db.cities.insert({ city_name: city_name });
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+module.exports = {
+  getAll,
+  insert,
+};
