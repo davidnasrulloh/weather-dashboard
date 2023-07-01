@@ -1,10 +1,11 @@
-# Still on Progress
 # FrontEnd and Backend Application Weathers App
 
 This is the README documentation for the backend application. It provides an overview of the application and instructions on how to use the provided APIs.
 
 ## APIs
+
 1. setting .env WEATHER_API=
+
 ### Get Cities
 
 - Endpoint: `http://localhost:5000/api/cities`
