@@ -5,7 +5,10 @@
     "main": "index.js",
     "scripts": {
         "start": "node server/index.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "server": "nodemon server/index.js",
+        "client": "npm start --prefix client",
+        "dev": "concurrently \"npm run server\" \"npm run client\""
     },
     "author": "david-nasrulloh",
     "license": "ISC",
@@ -16,5 +19,9 @@
         "express": "^4.18.2",
         "massive": "^6.11.2",
         "pg": "^8.11.1"
+    },
+    "devDependencies": {
+        "concurrently": "^8.2.0",
+        "nodemon": "^2.0.22"
     }
 }

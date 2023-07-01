@@ -1,9 +1,9 @@
-# Backend Application Weathers App
+# Backend And Front End Application Weathers App
 
 This is the README documentation for the backend application. It provides an overview of the application and instructions on how to use the provided APIs.
 
 ## APIs
-
+1. serring .env WEATHER_API=
 ### Get Cities
 
 - Endpoint: `http://localhost:5000/api/cities`
@@ -56,15 +56,16 @@ This is the README documentation for the backend application. It provides an ove
 - Description: Retrieves the weather information for a specific city.
 - Example: To get the weather information for Jakarta, use http://localhost:5000/api/weather/jakarta.
 
-### Getting Started
+### Getting Started Backend & Frontend
 
 To get started with the backend application, follow the instructions below:
 
 1. Clone the repository: git clone <repository-url>
 2. Install dependencies: npm install
-3. Run the application: npm start
+3. Run the application: npm run dev
 4. Access the APIs using the provided endpoints and methods.
 
 Make sure to replace http://localhost:5000 with the appropriate host and port if you are running the application on a different environment.
+And using port http://localhost:3000 using frontend weather app
 
 Happy coding!
