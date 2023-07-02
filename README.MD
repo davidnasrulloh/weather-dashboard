@@ -5,6 +5,8 @@ This is the README documentation for the backend application. It provides an ove
 ## APIs
 
 1. setting .env WEATHER_API=
+2. Setting user and password in file database.js for create and connection to database postgres
+3. Create database `weather_dashboard` with table `cities` -> and column `id`, `city_name`
 
 ### Get Cities
 
@@ -63,8 +65,8 @@ This is the README documentation for the backend application. It provides an ove
 To get started with the backend application, follow the instructions below:
 
 1. Clone the repository: git clone <repository-url>
-2. Install dependencies: npm install
-3. Run the application: npm run dev
+2. Install dependencies: npm install global app and make sure npm install in client directory
+3. Run the application: npm run dev in global app
 4. Access the APIs using the provided endpoints and methods.
 
 Make sure to replace http://localhost:5000 with the appropriate host and port if you are running the application on a different environment.
